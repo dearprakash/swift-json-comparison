@@ -4,6 +4,7 @@ PODS:
     - Box (~> 1.2)
     - Runes (>= 1.2.2)
   - Box (1.2.2)
+  - JSONJam (1.0.0)
   - JSONJoy-Swift (0.9.2)
   - ObjectMapper (0.12)
   - Runes (2.0.0)
@@ -12,6 +13,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (= 1.2.3)
   - Argo (= 1.0.3)
+  - JSONJam (= 1.0.0)
   - JSONJoy-Swift (= 0.9.2)
   - ObjectMapper (= 0.12)
   - SwiftyJSON (= 2.2.0)
@@ -20,6 +22,7 @@ SPEC CHECKSUMS:
   Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
   Argo: 480471806cf73d4074fcb94751482cd6c139ba3c
   Box: a92e8aa4c099e6bc0733829665caf9e668ef53b8
+  JSONJam: 80d231a2b98a05802f99193aa13af8be877df589
   JSONJoy-Swift: d51bde1053047c623db602e778f068414dd788e4
   ObjectMapper: ef4a369cbab75546029ceb7e8155772b5f8e8841
   Runes: 4fe81355f4620b76b02176222d264b33e60dba51

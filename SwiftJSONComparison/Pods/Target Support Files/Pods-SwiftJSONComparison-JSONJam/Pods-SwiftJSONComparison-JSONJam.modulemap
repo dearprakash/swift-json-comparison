@@ -1,0 +1,6 @@
+framework module JSONJam {
+  umbrella header "Pods-SwiftJSONComparison-JSONJam-umbrella.h"
+
+  export *
+  module * { export * }
+}
