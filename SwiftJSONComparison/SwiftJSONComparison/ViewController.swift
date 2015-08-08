@@ -25,6 +25,7 @@
 
 import Alamofire
 import Argo
+import JSONJam
 import JSONJoy
 import ObjectMapper
 import SwiftyJSON
@@ -34,6 +35,7 @@ class ViewController: UIViewController {
 
     enum Library {
         case Argo
+        case JSONJam
         case JSONJoy
         case ObjectMapper
         case SwiftyJSON
@@ -44,6 +46,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         requestWith(.Argo)
+        requestWith(.JSONJam)
         requestWith(.JSONJoy)
         requestWith(.ObjectMapper)
         requestWith(.SwiftyJSON)
@@ -72,9 +75,11 @@ class ViewController: UIViewController {
     private func responseHandlerForLibrary(library: Library) -> ((AnyObject) -> ()) {
         switch library {
         case .Argo:
-                return argoResponseHandler
+            return argoResponseHandler
+        case .JSONJam:
+            return jsonJamResponseHandler
         case .JSONJoy:
-                return jsonJoyResponseHandler
+            return jsonJoyResponseHandler
         case .ObjectMapper:
             return objectMapperResponseHandler
         case .SwiftyJSON:
@@ -89,6 +94,19 @@ class ViewController: UIViewController {
         if let j: AnyObject = json {
             
             let repo: RepoArgo? = decode(j)
+            
+            println(repo!)
+        }
+    }
+
+    private func jsonJamResponseHandler(data: AnyObject) {
+        
+        let json: AnyObject? = NSJSONSerialization.JSONObjectWithData(data as! NSData, options: NSJSONReadingOptions(0), error: nil)
+        
+        if let j: AnyObject = json {
+            
+            var repo: RepoJSONJam?
+            repo <-- j
             
             println(repo!)
         }

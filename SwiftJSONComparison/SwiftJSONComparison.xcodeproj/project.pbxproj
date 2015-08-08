@@ -14,6 +14,7 @@
 		DC546A541B484FC400284708 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC546A521B484FC400284708 /* LaunchScreen.xib */; };
 		DC546A601B484FC500284708 /* SwiftJSONComparisonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC546A5F1B484FC500284708 /* SwiftJSONComparisonTests.swift */; };
 		DC9161391B76ABC500209164 /* RepoOwnerJSONJam.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9161381B76ABC500209164 /* RepoOwnerJSONJam.swift */; };
+		DC91613D1B76AD3000209164 /* RepoJSONJam.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC91613C1B76AD3000209164 /* RepoJSONJam.swift */; };
 		DCE6F59A1B48A63A00A6E22A /* RepoOwnerArgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6F5981B48A63A00A6E22A /* RepoOwnerArgo.swift */; };
 		DCE6F59B1B48A63A00A6E22A /* RepoArgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6F5991B48A63A00A6E22A /* RepoArgo.swift */; };
 		DCE6F59F1B48A64B00A6E22A /* RepoOwnerJSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6F59D1B48A64B00A6E22A /* RepoOwnerJSONJoy.swift */; };
@@ -49,6 +50,7 @@
 		DC546A5E1B484FC400284708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC546A5F1B484FC500284708 /* SwiftJSONComparisonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJSONComparisonTests.swift; sourceTree = "<group>"; };
 		DC9161381B76ABC500209164 /* RepoOwnerJSONJam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoOwnerJSONJam.swift; sourceTree = "<group>"; };
+		DC91613C1B76AD3000209164 /* RepoJSONJam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoJSONJam.swift; sourceTree = "<group>"; };
 		DCE6F5981B48A63A00A6E22A /* RepoOwnerArgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoOwnerArgo.swift; sourceTree = "<group>"; };
 		DCE6F5991B48A63A00A6E22A /* RepoArgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoArgo.swift; sourceTree = "<group>"; };
 		DCE6F59D1B48A64B00A6E22A /* RepoOwnerJSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoOwnerJSONJoy.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		DC9161371B76AB9400209164 /* JSONJam */ = {
 			isa = PBXGroup;
 			children = (
+				DC91613C1B76AD3000209164 /* RepoJSONJam.swift */,
 				DC9161381B76ABC500209164 /* RepoOwnerJSONJam.swift */,
 			);
 			path = JSONJam;
@@ -358,6 +361,7 @@
 				DCE6F5A01B48A64B00A6E22A /* RepoJSONJoy.swift in Sources */,
 				DCE6F5A91B48A66000A6E22A /* RepoOwnerSwiftyJSON.swift in Sources */,
 				DCE6F59B1B48A63A00A6E22A /* RepoArgo.swift in Sources */,
+				DC91613D1B76AD3000209164 /* RepoJSONJam.swift in Sources */,
 				DCE6F59F1B48A64B00A6E22A /* RepoOwnerJSONJoy.swift in Sources */,
 				DCE6F5A51B48A65500A6E22A /* RepoObjectMapper.swift in Sources */,
 				DC546A4C1B484FC400284708 /* ViewController.swift in Sources */,
